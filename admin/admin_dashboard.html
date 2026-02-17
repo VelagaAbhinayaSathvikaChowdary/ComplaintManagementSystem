@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard-container">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <h2 class="logo">Admin Panel</h2>
+
+    <nav>
+  <a href="admin_dashboard.html" class="active">Dashboard</a>
+  <a href="complaints.html">Complaints</a>
+  <a href="status.html">Status</a>
+  <a href="admin_login.html">Logout</a>
+</nav>
+
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+
+    <!-- HEADER -->
+    <header class="top-bar">
+      <h1>Dashboard</h1>
+      <span class="admin-name">Welcome, Admin</span>
+    </header>
+
+    <!-- STATS -->
+    <section class="stats-grid">
+
+      <div class="stat-card">
+        <h3>Total Complaints</h3>
+        <p id="total">0</p>
+      </div>
+
+      <div class="stat-card pending">
+        <h3>Pending</h3>
+        <p id="pending">0</p>
+      </div>
+
+      <div class="stat-card resolved">
+        <h3>Resolved</h3>
+        <p id="resolved">0</p>
+      </div>
+
+    </section>
+
+  </main>
+
+</div>
+
+</body>
+</html>
